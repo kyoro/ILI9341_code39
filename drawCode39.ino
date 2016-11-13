@@ -1,3 +1,12 @@
+/**
+drawCode39 - Code 39 Barcode Generator for Adafruit ILI9341
+
+Copyright (c) Kyosuke Inoue (@kyoro353)
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+*/
+
 #include "Adafruit_ILI9341.h"
 
 void drawCode39(Adafruit_ILI9341 tft, int x, int y, int width, int height, int pitch,  String data){
